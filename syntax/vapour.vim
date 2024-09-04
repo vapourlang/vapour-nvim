@@ -204,7 +204,7 @@ syn keyword rNumber   NA_integer_ NA_real_ NA_complex_ NA_character_
 
 " Constants
 syn keyword rConstant NULL
-syn keyword rBoolean  FALSE TRUE
+syn keyword rBoolean  false true
 syn keyword rNumber   NA Inf NaN
 
 " integer
