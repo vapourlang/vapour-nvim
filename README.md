@@ -8,7 +8,6 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
 {
   "vapourlang-vapour-nvim",
-  name = "vapour",
   config = function()
     require("vapour").setup()
   end
