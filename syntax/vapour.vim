@@ -315,7 +315,7 @@ endif
 
 " Type
 syn region rType start=":" end=/\,)\}/ transparent
-syn keyword rType int char any num struct dataframe list object array category character complex double func integer list logical matrix numeric vector data.frame
+syn keyword rType int char any null na num struct dataframe list object array category character complex double func integer list logical matrix numeric vector data.frame
 
 " Name of object with spaces
 if &filetype == "rmd" || &filetype == "rrst" || &filetype == "quarto"
