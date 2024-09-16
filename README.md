@@ -7,7 +7,7 @@ Syntax highlighting and LSP for [vapour](https://vapour.run)
 Using [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
 {
-  "vapourlang-vapour-nvim",
+  "vapourlang/vapour-nvim",
   config = function()
     require("vapour").setup()
   end
